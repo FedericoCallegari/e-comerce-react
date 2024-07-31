@@ -14,11 +14,17 @@
         "img":"https://www.mrbooks.com/mrbooks/portadas/9780802131867.webp"
     },
     {
-        "id": 8,
+        "id": 3,
         "name": "Indian Journals",
         "author": "Allen Ginsberg",
         "price": 27,
         "img": "https://m.media-amazon.com/images/I/A1HPlKEdgvL._AC_UF894,1000_QL80_.jpg"
-
+    },
+    {
+        "id": 4,
+        "name": "Las enseñanzas de don juan",
+        "author":"castañeda",
+        "price":"39",
+        "img":"https://www.llibreriapublics.com/es/imagenes/9786071/978607161803.JPG"
     }
 ]
