@@ -2,19 +2,10 @@ import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
 import "./Products.css";
 
-const Products = () => {
-    const { data, cart, setCart } = useContext(dataContext);
+const Products = () => {  
+    const { data, buyProducts } = useContext(dataContext);
 
-    const buyProducts = (product)=>{
-
-      const productRepeat = cart.find((item)=> item.id === product.id);
-
-      if(productRepeat){
-        setCart(cart.map((item)=>item.id === product.id ? {...product, quanty: productRepeat.quanty + 1}: item ))
-      }
-
-      setCart([...cart, product])
-    }
+  
 
   return data.map((product)=>{
     return(
