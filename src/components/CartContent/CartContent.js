@@ -4,18 +4,27 @@ import { dataContext } from "../Context/DataContext";
 
 import CartElements from "./CartElements"
 import CartTotal from "./CartTotal"
+import NavBar from "../NavBar/NavBar";
 
 
 const CartContent = () => {
   const { cart } = useContext(dataContext);
   //Condition
-
-  return cart.length > 0 ?(
+  return (
     <>
-      <CartElements/>
-      <CartTotal/>
+      <NavBar/>
+      {cart.length > 0 ? (
+        <>
+          <CartElements/>
+          <CartTotal/>
+        </> 
+      ):( 
+        <h3 className="cart-message-center">Tu carrito esta vacio</h3>
+      )}
     </>
-  ): (<h3 className="cart-message-center">Tu carrito esta vacio</h3>) ; 
+  )
+  
 };
+
 
 export default CartContent
