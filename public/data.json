@@ -4,27 +4,31 @@
         "name": "On the Road",
         "author": "Jack kerouac",
         "price": 10,
-        "img":"https://www.anagrama-ed.es/uploads/media/portadas/0001/26/4ba1dfa0d8bca76ef8c5c27726aac890498ee473.jpeg"
+        "img":"https://www.anagrama-ed.es/uploads/media/portadas/0001/26/4ba1dfa0d8bca76ef8c5c27726aac890498ee473.jpeg",
+        "quanty": 1
     },
     {
         "id": 2,
         "name": "The subterraneans",
         "author": "Jack kerouac",
         "price": 20,
-        "img":"https://www.mrbooks.com/mrbooks/portadas/9780802131867.webp"
+        "img":"https://www.mrbooks.com/mrbooks/portadas/9780802131867.webp",
+        "quanty":1
     },
     {
         "id": 3,
         "name": "Indian Journals",
         "author": "Allen Ginsberg",
         "price": 27,
-        "img": "https://m.media-amazon.com/images/I/A1HPlKEdgvL._AC_UF894,1000_QL80_.jpg"
+        "img": "https://m.media-amazon.com/images/I/A1HPlKEdgvL._AC_UF894,1000_QL80_.jpg",
+        "quanty":1
     },
     {
         "id": 4,
         "name": "Las enseñanzas de don juan",
         "author":"castañeda",
         "price":"39",
-        "img":"https://www.llibreriapublics.com/es/imagenes/9786071/978607161803.JPG"
+        "img":"https://www.llibreriapublics.com/es/imagenes/9786071/978607161803.JPG",
+        "quanty":1
     }
 ]
