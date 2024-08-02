@@ -1,13 +1,18 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 
 export const dataContext = createContext();
 
 const DataProvider = ({ children }) => {
-  const [cart, setCart] = useState([]);
+  const savedCart = JSON.parse(localStorage.getItem("cart")) || [];
+  const [cart, setCart] = useState(savedCart);
 
+  useEffect(()=>{
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
   
-
+  //setItem
+  //getItem
   const buyProducts = (product) => {
     const productRepeat = cart.find((item) => item.id === product.id);
     if (productRepeat) {
