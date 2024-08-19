@@ -4,10 +4,17 @@
     flex-wrap: wrap;
     margin: 50px;
     text-align: center;
+    
 }
 
-.card{
+.card img{
     margin: 50px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    object-fit:contain;
 }
 
 .card button{
