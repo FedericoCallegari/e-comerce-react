@@ -14,11 +14,11 @@ const NavBar = () => {
           <Link to= {"/"}>
             <h1 className="navbar-logo">Shop</h1>
           </Link>
-            <Link className="seeCarrito" to = {"/cart"}>
-              🛒
-              {cart.length > 0 ? <TotalItems/> : null}
-              
-            </Link>
+          
+          <Link className="seeCarrito" to = {"/cart"}>
+            🛒
+            {cart.length > 0 ? <TotalItems/> : null}
+          </Link>
         </nav>
     </div>
   )
