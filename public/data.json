@@ -27,8 +27,57 @@
         "id": 4,
         "name": "Las enseñanzas de don juan",
         "author":"castañeda",
-        "price":"39",
+        "price":39,
         "img":"https://www.llibreriapublics.com/es/imagenes/9786071/978607161803.JPG",
         "quanty":1
+    },
+    {
+        "id": 5,
+        "name":"Cronica de una muerte anunciada",
+        "author":"Gabriel garcia marquez",
+        "price":50,
+        "img":"https://www.cronista.com/files/image/415/415248/61af8a0d641ff_700_1079!.jpg?s=f277530ab33b1acd15d7ca3cb2e8b0a7&d=1638894094",
+        "quanty":1
+    },
+    {
+        "id":6,
+        "name":"Una navidad diferente",
+        "author":"John Grisham",
+        "price":80,
+        "img":"https://img2.rtve.es/im/6757853/?w=900",
+        "quanty":1
+    },
+    {
+        "id":7,
+        "name":"La isla misteriosa",
+        "author":"Julio Verne",
+        "price":50,
+        "img":"https://resizer.glanacion.com/resizer/v2/andquotla-isla-misteriosaandquot-de-julio-NBW2QQHXEBGYVK2AKTFINMMHZI.jpg?auth=1d4cac66b670384651af200e5586f6cc102ec49390a23d23ccd55ce132b7e966&width=420&height=630&quality=70&smart=true",
+        "quanty":1
+    },
+    {
+        "id":8,
+        "name":"Hacia rutas salvajes",
+        "author":"Jon Krakauer",
+        "price":60,
+        "img": "https://media.admagazine.com/photos/618a702b2f01962557ac4692/master/w_1600%2Cc_limit/55418.jpg",
+        "quanty": 1
+    },
+    {
+        "id":9,
+        "name":"Estudio en Escarlata, el signo de los cuatro",
+        "author":"Arthur Conan Doyle",
+        "price":90,
+        "img": "https://www.bicaalu.com/wp-content/uploads/libros_para_leer_en_una_sola_sentada_a.jpg",
+        "quanty":1
+    },
+    {
+        "id": 10,
+        "name":"Cuentos completos",
+        "author":"Jorge Luis Borges",
+        "price": 60,
+        "img":"https://static.cegal.es/imagenes/marcadas/9788426/978842642596.gif",
+        "quanty":1
     }
+
 ]
