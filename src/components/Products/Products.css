@@ -7,14 +7,26 @@
     
 }
 
-.card img{
-    margin: 50px;
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
+.card{
+    width: 20rem;
+    height: 27rem;
+    padding: 12px;
+    border-radius: 10px;
     overflow: hidden;
     display: flex;
-    object-fit:contain;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.7rem;
+    box-shadow: 1px 1px 30px 1px rgba(0,0,0,0.25) inset;
+-webkit-box-shadow: 1px 1px 30px 1px rgba(0,0,0,0.25) inset;
+-moz-box-shadow: 1px 1px 30px 1px rgba(0,0,0,0.25) inset;
+}
+img{
+    width: auto;
+    height: 15rem;
+    object-fit: fill;
+    border-radius: 5px;
 }
 
 .card button{
@@ -25,7 +37,7 @@
     background-color: #1bcd7f;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     font-size: 15px;
 }
 .card button:hover{
