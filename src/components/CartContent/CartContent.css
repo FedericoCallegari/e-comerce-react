@@ -28,3 +28,14 @@
 .cart-delete-button {
     cursor: pointer;
 }
+.volver{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #898989;
+    color: #ffff;
+}
+.volver:hover{
+    color: #000000;
+}

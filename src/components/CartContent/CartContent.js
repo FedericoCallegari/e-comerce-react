@@ -1,6 +1,7 @@
 
 import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
+import { Link } from "react-router-dom";
 
 import CartElements from "./CartElements"
 import CartTotal from "./CartTotal"
@@ -21,6 +22,9 @@ const CartContent = () => {
       ):( 
         <h3 className="cart-message-center">Tu carrito esta vacio</h3>
       )}
+      <Link className="volver" to={"/"}>
+        <p>Volver</p>
+      </Link>
     </>
   )
   
