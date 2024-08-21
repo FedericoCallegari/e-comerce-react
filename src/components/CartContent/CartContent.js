@@ -16,13 +16,10 @@ const CartContent = () => {
       <NavBar/>
     <div className="cart-container">
       {cart.length > 0 ? (
-        <>
-        
-          <CartElements/>
-          <CartTotal/>
-        
-          
-        </> 
+          <div className="cart-elements-container">
+            <CartElements/>
+            <CartTotal/>
+          </div>
       ):( 
         <h2 className="cart-message-center">Tu carrito esta vacio</h2>
       ) }
@@ -32,6 +29,7 @@ const CartContent = () => {
           <p>Volver</p>
         </Link>
       </div>
+      
       
     </>
   )
