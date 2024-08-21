@@ -14,17 +14,25 @@ const CartContent = () => {
   return (
     <>
       <NavBar/>
+    <div className="cart-container">
       {cart.length > 0 ? (
         <>
+        
           <CartElements/>
           <CartTotal/>
+        
+          
         </> 
       ):( 
-        <h3 className="cart-message-center">Tu carrito esta vacio</h3>
-      )}
-      <Link className="volver" to={"/"}>
-        <p>Volver</p>
-      </Link>
+        <h2 className="cart-message-center">Tu carrito esta vacio</h2>
+      ) }
+    </div>
+      <div className="volver-content">
+        <Link className="volver" to={"/"}>
+          <p>Volver</p>
+        </Link>
+      </div>
+      
     </>
   )
   

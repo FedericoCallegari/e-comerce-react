@@ -16,9 +16,14 @@
 }
 
 .cart-message-center{
-    text-align: center;
-    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .counter-button {
     cursor: pointer;
@@ -27,6 +32,10 @@
 
 .cart-delete-button {
     cursor: pointer;
+}
+.vover-content{
+    display: flex;
+    align-content: flex-end;
 }
 .volver{
     cursor: pointer;
@@ -38,4 +47,9 @@
 }
 .volver:hover{
     color: #000000;
+}
+
+.cart-container{
+    width: 100%;
+    height: 100%;
 }
